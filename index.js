@@ -7,7 +7,7 @@ function newImage(image, src, position, left, bottom, boolean) {
     document.body.append(newImg);
 
     if (boolean === true && image === 'sword') { 
-        newImg.addEventListener('click', function() {
+        newImg.addEventListener('dblclick', function() {
             newImg.remove();
         });
         newImg.style.cursor = 'pointer';
